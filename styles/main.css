@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header button {
+  height: 100px;
+  background-color: blue;
+  text-align: center;
+}
+.header button:hover {
+  background: rgb(48, 202, 219);
+}
+
+h4 {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.my-button {
+  height: 65px;
+  padding: 30px;
+  margin: 20px;
+  background-color: green;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

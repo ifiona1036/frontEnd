@@ -1,0 +1,26 @@
+.header{
+    // CSS for elements in the header class
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // CSS for buttons inside the header class
+
+    button{
+        height: $buttonHeight;
+        background-color: $primaryColor;
+        text-align: center;
+
+        &:hover{
+            background:$buttonHoverColor;
+        }
+    }
+}
+
+h4{
+    @include flexRight();
+}
+.my-button{
+    @include buttonProps(red, green);
+    @include flexCenter();
+}

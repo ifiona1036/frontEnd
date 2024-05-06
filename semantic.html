@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>go world</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Menu/Navigation -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li>About Us</li>
+            <li>Our Services</li>
+            <li>Contact Us</li>
+            <li><a href="http://google.com">Go To Google</a></li>
+        </ul>
+    </nav>
+    <style>
+      
+      h2{
+            color: gold;
+            border: 5px dashed olive;
+       
+        }
+        h3{
+            text-align: right;
+            text-decoration: underline;
+      
+        }
+        .title{      
+            background-color: blue;
+            text-decoration: underline;
+        }
+
+        .bordered{
+            border: 2px ridge red;
+        }
+        #moving{
+            font-size: 50px;
+            font-family: arial, helvitica, san-sarif;
+            color: blue;
+        }
+        .box .para{
+            font-size: 60px;
+            color: chartreuse;
+            text-align: center;
+        }
+        article > p {
+            font-weight: bold;
+            background-color: #333;
+            color: #fff;
+            padding: .5em;
+        }
+        h1 + p {
+            font-weight: bold;
+            background-color: #333;
+            color: #fff;
+            padding: .5em;
+        }
+        h1 ~ p {
+            font-weight: bold;
+            border: 3px solid red;
+            border-radius: 5px;
+            color: #fff;
+            padding: .5em;
+        }
+        /* unvisited link */
+        a:link {
+            color: tomato;
+            text-decoration: underline;
+        }
+
+        /* visited link */
+        a:visited {
+            color: blue;
+            text-decoration: line-through;
+        }
+
+        /* mouse over element */
+        a:hover {
+            color: green;
+            text-decoration: overline;
+        } 
+
+        /* selected link */
+        a:active{
+            color: yellow;
+        }
+        .box {
+            border: 2px solid green;
+            /* padding: 100px; */
+            /* padding-left: 10px */
+            padding-top: 5px;
+        }
+        .inner-box{
+            width: 100%;
+            border: 2px solid #f00;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 50px;
+            visibility: hidden;
+            /* display: none; */
+            /* margin: 100px; */
+        }
+        .text-1 {
+            background-color: aqua;
+            font-size: 20px;
+            line-height: 50px;
+            letter-spacing: 4px;
+            word-spacing: 4px;
+        }
+        .my-box {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        #box-1 {
+            /* display: none; */
+            background: blue;
+        }
+        #box-2 {
+             display: none;
+             visibility:hidden;
+            background: red;
+        }
+        #box-3 {
+            /* display: none; */
+            background: green;
+        }
+    </style>
+    <h1 id="moving">Welcome To My World</h1>
+</head>
+<body>
+    <header>
+     <main>
+            <aside>
+                <div>
+
+                </div><p class="text-1 underline">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+                    ratione alias, eaque temporibus tenetur similique accusamus quas
+                    laudantium ea reiciendis itaque atque earum provident. Ab nisi sunt quo
+                    repellat vitae.
+                </p>
+
+                <div class="box">
+                    <div class="inner-box">
+                        <h1>idbiduudiucuud</h1>
+                    </div>
+                    <!-- <p>kdfbjkfnjfllfjkklk</p> -->
+                </div>
+            </aside>
+            <article>
+                <h1>A heading</h1>
+                <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo
+                        melon azuki bean garlic.</p>
+            
+                <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard
+                        greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+            </article>
+            <section>
+                <article>
+                    <h1>A heading</h1>
+                    <p>I am a paragraph.</p>
+                    <div>I am a div</div>
+                    <p>I am another paragraph.</p>
+            
+                    <div>
+                        <p>Not a direct child</p>
+                    </div>
+                </article>
+                <div>
+                    <h1 style="color: #f00">Hello World</h1>
+                    <p style="border: 1px blue solid; color: crimson">
+                        This is my first paragraph
+                    </p>
+                </div>
+                <div class="box">
+                    <p class="para">Text in .box</p>
+                </div>
+                <div>
+                    <h2>
+                        this is interna styling
+                    </h2>
+                    <h3>
+                        this is internal styling
+                    </h3>
+                </div>
+                <div>
+                    <h4>
+                        this is h4 external styling
+                    </h4>
+                    <h5>
+                        this is h5 external styling
+                    </h5>
+                </div>
+                <div>
+                    <div id="box-1" class="my-box">
+            
+                    </div>
+                    <div id="box-2" class="my-box">
+            
+                    </div>
+                    <div id="box-3" class="my-box">
+            
+                    </div>
+                </div>
+                <h1 class="title">Welcome to my blog</h1>
+		<p class="title">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+			ratione alias, eaque temporibus tenetur similique accusamus quas
+		</p>
+		<h1>I am a super web developer</h1>
+            </section>
+     </main>
+      <footer>
+            <div>
+                copy right 2014
+            </div>
+            <div>
+                <address>
+                    <span>#1, go to live</span>
+                    <span>rooky estate</span>
+                </address>
+            </div>
+      </footer>
+        <h1 title="This is title">Welcome to GoMyCode</h1>
+        <!-- Menu starts here -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Menu ends here -->
+    </header>
+</body>
+</html>

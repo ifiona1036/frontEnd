@@ -1,0 +1,19 @@
+@mixin buttonProps($borderColor, $buttonColor){
+    height: 65px;
+    padding: 30px;
+    margin: 20px;
+    background-color: $buttonColor;
+    border: 5px solid $borderColor;
+}
+
+@mixin flexCenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexRight(){
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

@@ -1,0 +1,19 @@
+h4{
+    color: aqua;
+    border: dotted;
+
+}
+h5{
+    color: chocolate;
+    border: solid;
+}
+.title{
+    background-color: brown;
+    text-transform: uppercase;
+}
+
+.box .para{
+    font-size: 60px;
+    color: chartreuse;
+    text-align: center;
+}

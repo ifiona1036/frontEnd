@@ -1,0 +1,30 @@
+#btn-1 {
+  background-color: red;
+}
+
+#btn-2 {
+  background-color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header button {
+  height: 100px;
+  background-color: #58e3e3;
+  text-align: center;
+}
+.header button:hover {
+  background-color: brown;
+}/*# sourceMappingURL=style.css.map */

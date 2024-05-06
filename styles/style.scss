@@ -1,0 +1,38 @@
+$primaryColor: #58e3e3;
+$textColor: blue;
+$buttonColor: red;
+$buttonHeight: 100px;
+$buttonHoverColor: brown;
+
+#btn-1{
+    background-color: $buttonColor;
+}
+#btn-2{
+    background-color: $buttonColor;
+}
+h1{
+    color: $textColor;
+}
+button{
+    display: block;
+    margin-top: 10px;
+}
+
+.header{
+    // CSS for elements in the header class
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // CSS for buttons inside the header class
+
+    button{
+        height: $buttonHeight;
+        background-color: $primaryColor;
+        text-align: center;
+
+        &:hover{
+            background-color:$buttonHoverColor;
+        }
+    }
+}
